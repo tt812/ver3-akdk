@@ -1,0 +1,14 @@
+
+if SHIELD_VER3_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "ver3"
+
+endif
+
+if SHIELD_VER3_LEFT || SHIELD_VER3_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

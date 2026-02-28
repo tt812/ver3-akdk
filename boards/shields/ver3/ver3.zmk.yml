@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: ver3
+name: ver3
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - ver3_left
+  - ver3_right
