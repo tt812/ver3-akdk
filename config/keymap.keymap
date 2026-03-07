@@ -33,19 +33,19 @@
 
         layer_0 {
             bindings = <
-&kp Q      &kp W  &kp E  &kp R  &kp T        &kp ESCAPE              &kp DEL          &kp Y     &kp U  &kp I      &kp O       &kp P
-&kp A      &kp S  &kp D  &kp F  &kp G        &mt LEFT_ALT CAPS       &none            &kp H     &kp J  &kp K      &kp L       &mt LEFT_SHIFT ENTER
-&kp Z      &kp X  &kp C  &kp V  &kp B        &mt LEFT_WIN BACKSLASH  &mkp MB2         &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT UNDERSCORE
-&kp LCTRL                       &lt 1 SPACE  &lt 2 INTERNATIONAL_5   &lt 3 BACKSPACE  &mkp MB1                                &mt RIGHT_CONTROL AT_SIGN
+&kp Q      &kp W  &kp E  &kp R  &kp T        &kp ESCAPE              &kp DEL                &kp Y     &kp U  &kp I      &kp O       &kp P
+&kp A      &kp S  &kp D  &kp F  &kp G        &mt LEFT_ALT CAPS       &mt RIGHT_ALT AT_SIGN  &kp H     &kp J  &kp K      &kp L       &mt LEFT_SHIFT ENTER
+&kp Z      &kp X  &kp C  &kp V  &kp B        &mt LEFT_WIN BACKSLASH  &mkp MB2               &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT UNDERSCORE
+&kp LCTRL                       &lt 1 SPACE  &lt 2 INTERNATIONAL_5   &lt 3 BACKSPACE        &mkp MB1                                &mt RIGHT_CONTROL AT_SIGN
             >;
         };
 
         layer_1 {
             bindings = <
-&kp LS(TAB)  &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PG_UP  &kp LC(W)  &kp DEL        &kp KP_N7        &kp KP_NUMBER_8  &kp KP_N9        &kp KP_EQUAL     &kp MINUS
-&lt 4 TAB    &kp LEFT      &kp DOWN   &kp RIGHT      &kp PG_DN  &none      &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SLASH     &mt LEFT_SHIFT ENTER
-&kp LC(Z)    &kp LC(X)     &kp LC(C)  &kp LC(V)      &kp LC(Y)  &none      &kp KP_PLUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK  &none
-&none                                                &none      &none      &kp BACKSPACE  &kp KP_NUMBER_0                                                     &none
+&kp LS(TAB)  &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PG_UP  &kp LC(W)               &kp DEL        &kp KP_N7        &kp KP_NUMBER_8  &kp KP_N9        &kp KP_EQUAL     &kp MINUS
+&lt 4 TAB    &kp LEFT      &kp DOWN   &kp RIGHT      &kp PG_DN  &mt LEFT_ALT CAPS       &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SLASH     &mt LEFT_SHIFT ENTER
+&kp LC(Z)    &kp LC(X)     &kp LC(C)  &kp LC(V)      &kp LC(Y)  &mt LEFT_WIN BACKSLASH  &kp KP_PLUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK  &mt RIGHT_SHIFT UNDERSCORE
+&kp LCTRL                                            &none      &kp INTERNATIONAL_5     &kp BACKSPACE  &kp KP_NUMBER_0                                                     &mt RCTRL AT_SIGN
             >;
         };
 
@@ -60,28 +60,28 @@
 
         layer_3 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none                       &none  &none  &none  &none                       &none
+&kp LS(TAB)  &none             &kp LG(LC(D))  &none              &none  &none  &none  &none  &none  &none  &none  &none
+&kp TAB      &kp LG(LC(LEFT))  &none          &kp LG(LC(RIGHT))  &none  &none  &none  &none  &none  &none  &none  &none
+&none        &none             &none          &none              &none  &none  &none  &none  &none  &none  &none  &none
+&none                                                            &none  &none  &none  &none                       &none
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &kp LC(TAB)     &msc SCRL_UP    &kp LC(LS(TAB))  &trans  &trans  &trans        &trans        &kp LC(TAB)     &msc SCRL_UP    &kp LS(LC(TAB))  &trans
-&trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &bt BT_CLR    &trans        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans
-&trans  &trans          &trans          &trans           &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4     &trans
-&trans                                                   &trans  &trans  &trans        &trans                                                         &trans
+&trans  &kp LC(LS(TAB))  &msc SCRL_UP    &kp LC(TAB)      &trans  &trans  &trans        &trans        &kp LC(LS(TAB))  &msc SCRL_UP    &kp LC(TAB)      &trans
+&trans  &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &trans  &bt BT_CLR    &trans        &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans
+&trans  &trans           &trans          &trans           &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3    &bt BT_SEL 4     &trans
+&trans                                                    &trans  &trans  &trans        &trans                                                          &trans
             >;
         };
 
         layer_5 {
             bindings = <
-&trans  &msc MOVE_X(0)   &mkp MB3  &msc MOVE_Y(0)  &trans  &trans  &trans  &trans  &msc MOVE_Y(0)  &mkp MB3  &mmv MOVE_X(0)   &trans
-&trans  &lt 6 LC(LS(B))  &mkp MB1  &mkp MB2        &trans  &trans  &trans  &trans  &mkp MB2        &mkp MB1  &lt 6 LC(LS(B))  &mt LEFT_SHIFT ENTER
-&trans  &trans           &trans    &trans          &trans  &trans  &trans  &trans  &trans          &trans    &trans           &trans
-&trans                                             &trans  &trans  &trans  &trans                                             &trans
+&trans         &none   &mkp MB3  &none     &trans  &trans  &trans    &trans    &none     &mkp MB3  &none   &trans
+&kp LC(LS(B))  &mo 6   &mkp MB1  &mkp MB2  &trans  &trans  &trans    &trans    &mkp MB2  &mkp MB1  &mo 6   &mt LEFT_SHIFT ENTER
+&trans         &trans  &trans    &trans    &trans  &trans  &mkp MB2  &trans    &trans    &trans    &trans  &mt RIGHT_SHIFT UNDERSCORE
+&kp LCTRL                                  &trans  &trans  &trans    &mkp MB1                              &mt RCTRL AT_SIGN
             >;
         };
 
