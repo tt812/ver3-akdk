@@ -32,10 +32,10 @@
 
         layer_0 {
             bindings = <
-&kp Q      &kp W  &kp E  &kp R  &kp T        &none                   &none  &kp Y     &kp U  &kp I      &kp O       &kp P
-&kp A      &kp S  &kp D  &kp F  &kp G        &kp CAPS                &none  &kp H     &kp J  &kp K      &kp L       &mt LEFT_SHIFT ENTER
-&kp Z      &kp X  &kp C  &kp V  &kp B        &mt LEFT_WIN BACKSLASH  &none  &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT UNDERSCORE
-&kp LCTRL                       &lt 1 SPACE  &lt 2 INTERNATIONAL_5   &none  &mkp MB1                                &mt RIGHT_CONTROL ESCAPE
+&kp Q      &kp W  &kp E  &kp R  &kp T        &kp ESCAPE              &kp DEL                &kp Y     &kp U  &kp I      &kp O       &kp P
+&kp A      &kp S  &kp D  &kp F  &kp G        &mt LEFT_ALT CAPS       &none                  &kp H     &kp J  &kp K      &kp L       &mt LEFT_SHIFT ENTER
+&kp Z      &kp X  &kp C  &kp V  &kp B        &mt LEFT_WIN BACKSLASH  &mt RIGHT_ALT AT_SIGN  &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT UNDERSCORE
+&kp LCTRL                       &lt 1 SPACE  &lt 2 INTERNATIONAL_5   &none                  &mkp MB1                                &mt RIGHT_CONTROL ESCAPE
             >;
         };
 
@@ -50,10 +50,10 @@
 
         layer_2 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none                       &none  &none  &none  &none                       &none
+&kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT  &none    &none    &none  &none          &none             &none          &none  &none
+&kp F7           &kp F8    &kp F9      &kp F10      &kp F11  &kp F12  &none  &none          &none             &kp SEMICOLON  &none  &none
+&kp F1           &kp F2    &kp F3      &kp F4       &kp F5   &kp F6   &none  &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH      &none  &none
+&none                                               &none    &none    &none  &none                                                  &none
             >;
         };
 
@@ -63,6 +63,69 @@
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none                       &none  &none  &none  &none                       &none
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                          &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                          &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                          &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                          &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                          &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                          &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        layer_10 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans                          &trans  &trans  &trans  &trans                          &trans
             >;
         };
     };
