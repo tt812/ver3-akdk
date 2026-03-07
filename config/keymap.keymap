@@ -35,25 +35,25 @@
 &kp Q      &kp W  &kp E  &kp R  &kp T        &kp ESCAPE              &kp DEL                &kp Y     &kp U  &kp I      &kp O       &kp P
 &kp A      &kp S  &kp D  &kp F  &kp G        &mt LEFT_ALT CAPS       &none                  &kp H     &kp J  &kp K      &kp L       &mt LEFT_SHIFT ENTER
 &kp Z      &kp X  &kp C  &kp V  &kp B        &mt LEFT_WIN BACKSLASH  &mt RIGHT_ALT AT_SIGN  &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT UNDERSCORE
-&kp LCTRL                       &lt 1 SPACE  &lt 2 INTERNATIONAL_5   &none                  &mkp MB1                                &mt RIGHT_CONTROL ESCAPE
+&kp LCTRL                       &lt 1 SPACE  &lt 2 INTERNATIONAL_5   &lt 3 BACKSPACE        &mkp MB1                                &mt RIGHT_CONTROL ESCAPE
             >;
         };
 
         layer_1 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none                       &none  &none  &none  &none                       &none
+&kp LS(TAB)  &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PG_UP  &kp LC(W)  &kp DEL        &kp KP_N7        &kp KP_NUMBER_8  &kp KP_N9        &kp KP_EQUAL     &kp MINUS
+&lt 4 TAB    &kp LEFT      &kp DOWN   &kp RIGHT      &kp PG_DN  &none      &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SLASH     &mt LEFT_SHIFT ENTER
+&kp LC(Z)    &kp LC(X)     &kp LC(C)  &kp LC(V)      &kp LC(Y)  &none      &kp KP_PLUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ASTERISK  &none
+&none                                                &none      &none      &kp BACKSPACE  &kp KP_NUMBER_0                                                     &none
             >;
         };
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT  &none    &none    &none  &none          &none             &none          &none  &none
-&kp F7           &kp F8    &kp F9      &kp F10      &kp F11  &kp F12  &none  &none          &none             &kp SEMICOLON  &none  &none
-&kp F1           &kp F2    &kp F3      &kp F4       &kp F5   &kp F6   &none  &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH      &none  &none
-&none                                               &none    &none    &none  &none                                                  &none
+&kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT  &none    &none    &kp DEL  &none          &none             &none          &none  &none
+&kp F7           &kp F8    &kp F9      &kp F10      &kp F11  &kp F12  &none    &none          &none             &kp SEMICOLON  &none  &none
+&kp F1           &kp F2    &kp F3      &kp F4       &kp F5   &kp F6   &none    &kp LESS_THAN  &kp GREATER_THAN  &kp SLASH      &none  &none
+&kp LCTRL                                           &none    &none    &none    &none                                                  &none
             >;
         };
 
