@@ -21,11 +21,11 @@ jobs:
 
       - name: Draw
         run: |
-          # 1. 解析 (ここは変更なし)
+          # 1. 解析：configフォルダ内のkeymapファイルを読み込みます
           keymap parse -z config/keymap.keymap > keymap_data.yaml
 
-          # 2. 描画 ( -c config.yaml をサブコマンド draw の前に移動)
-          keymap -c config.yaml draw -j info.json keymap_data.yaml > keymap_display.svg
+          # 2. 描画：configフォルダ内のinfo.jsonを明示的に指定します
+          keymap -c config.yaml draw -j config/info.json keymap_data.yaml > keymap_display.svg
 
       - name: Push SVG
         run: |
