@@ -41,8 +41,8 @@ parse_config:
     "4 TAB": "L4/Tab"
 
     # BT名変更
-    "&sel_win_0": "Win/BT0"
-    "&sel_win_1": "Win/BT1"
-    "&sel_win_2": "Win/BT2"
-    "&sel_ipad_3": "iPad/BT3"
-    "&sel_ipad_4": "iPad/BT4"
+    "&bt BT_SEL 0": "Win/BT0"
+    "&bt BT_SEL 1": "Win/BT1"
+    "&bt BT_SEL 2": "Win/BT2"
+    "&bt BT_SEL 3": "iPad/BT3"
+    "&bt BT_SEL 4": "iPad/BT4"
