@@ -21,12 +21,11 @@ jobs:
 
       - name: Draw
         run: |
-          # 1. 解析：設定ファイルなしで、まずはZMKコードをYAMLデータに変換します
+          # 1. 解析 (ここは変更なし)
           keymap parse -z config/keymap.keymap > keymap_data.yaml
 
-          # 2. 描画：ここで config.yaml と info.json を適用します
-          # -c は config、-j は layout json (info.json) を指します
-          keymap draw -c config.yaml -j info.json keymap_data.yaml > keymap_display.svg
+          # 2. 描画 ( -c config.yaml をサブコマンド draw の前に移動)
+          keymap -c config.yaml draw -j info.json keymap_data.yaml > keymap_display.svg
 
       - name: Push SVG
         run: |
