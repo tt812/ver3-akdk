@@ -2,7 +2,7 @@ draw_config:
   check_layers: true
 parse_config:
   skip_is_main_pad: true
-  zmk_remove_keycode_prefix: ["&kp"]
+  zmk_remove_keycode_prefix: ["&kp", "&mt", "&lt"]
   raw_binding_map:
     "JP_DQUOTE": "\""
     "JP_AMPERSAND": "&"
