@@ -131,7 +131,7 @@
             >;
         };
 
-        layer_3 {
+        bt_winar_ar {
             bindings = <
 &kp LS(TAB)   &kp LG(D)     &kp LG(UP)    &none          &none         &kp LG(TAB)     &kp DEL              &none  &none     &kp UP    &none      &none
 &kp TAB       &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &bt BT_CLR    &mt LALT CAPS   &mt RIGHT_ALT JP_AT  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &mt LSHIFT ENTER
@@ -140,7 +140,7 @@
             >;
         };
 
-        layer_4 {
+        scroll_vd {
             bindings = <
 &kp LS(TAB)  &kp LC(LS(TAB))  &msc SCRL_UP    &kp LC(TAB)      &trans  &kp LG(TAB)     &kp DEL   &trans  &none                   &kp LC(LG(F4))  &none                    &trans
 &kp TAB      &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans  &mt LALT CAPS   &kp RALT  &trans  &kp LG(LC(LEFT_ARROW))  &kp LG(LC(D))   &kp LG(LC(RIGHT_ARROW))  &mt LEFT_SHIFT ENTER
