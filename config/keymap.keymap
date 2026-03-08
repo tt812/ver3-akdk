@@ -135,7 +135,7 @@
             bindings = <
 &kp LS(TAB)   &kp LG(D)     &kp LG(UP)    &none          &none         &kp LG(TAB)     &kp DEL              &none  &none     &kp UP    &none      &none
 &kp TAB       &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &bt BT_CLR    &mt LALT CAPS   &mt RIGHT_ALT JP_AT  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &mt LSHIFT ENTER
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &mt LWIN LG(T)  &kp RWIN             &none  &none     &none     &none      &mt RSHIFT UNDER
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &mt LWIN LG(T)  &kp RWIN             &none  &none     &none     &none      &mt RSHIFT JP_UNDERSCORE
 &kp LCTRL                                                &none         &none           &none                &none                                 &mt RCTRL ESC
             >;
         };
