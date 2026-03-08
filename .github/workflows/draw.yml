@@ -2,8 +2,10 @@ name: Draw Keymap
 on:
   push:
     paths:
-      - 'config/*.keymap'
-      - 'config.yaml' # これが更新された時も動くようにします
+      - 'config/keymap.keymap'
+      - 'config.yaml'
+      - 'info.json'
+  workflow_dispatch: # 手動実行ボタンも追加しておきます
 
 jobs:
   draw:
@@ -19,10 +21,10 @@ jobs:
 
       - name: Draw
         run: |
-          # あなたのファイル構成に合わせて実行します
-          # info.json と config.yaml を使って画像を作成
-          keymap parse -c config.yaml --qmk-json info.json -z config/*.keymap > keymap.yaml
-          keymap draw -c config.yaml keymap.yaml > keymap_display.svg
+          # 1. あなたのフォルダ構成に合わせた解析
+          keymap parse -c config.yaml --qmk-json info.json -z config/keymap.keymap > keymap_data.yaml
+          # 2. 解析したデータから画像を作成
+          keymap draw -c config.yaml keymap_data.yaml > keymap_display.svg
 
       - name: Push SVG
         run: |
