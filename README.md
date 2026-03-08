@@ -24,3 +24,4 @@ USB-C cable|1|
 |Diode|42|
 |Keycap|42|
 
+![Keymap](./keymap_display.svg)
