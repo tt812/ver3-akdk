@@ -21,10 +21,10 @@ jobs:
 
       - name: Draw
         run: |
-          # 1. 解析：configフォルダ内のkeymapファイルを読み込みます
-          keymap parse -z config/keymap.keymap > keymap_data.yaml
+          # 1. 解析段階で config.yaml を読み込ませ、接頭辞の削除や文字の置換を行います
+          keymap -c config.yaml parse -z config/keymap.keymap > keymap_data.yaml
 
-          # 2. 描画：configフォルダ内のinfo.jsonを明示的に指定します
+          # 2. 描画段階でも config.yaml を読み込み、レイアウト（info.json）を適用します
           keymap -c config.yaml draw -j config/info.json keymap_data.yaml > keymap_display.svg
 
       - name: Push SVG
