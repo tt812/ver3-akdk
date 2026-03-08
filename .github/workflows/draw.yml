@@ -1,17 +1,17 @@
 name: Draw Keymap
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'config/keymap.keymap'
+      - 'config/info.json'
       - 'config.yaml'
-      - 'info.json'
-  workflow_dispatch: # 手動実行ボタンも追加しておきます
 
 jobs:
   draw:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # 確実にPushするための権限を明示
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,19 +21,17 @@ jobs:
 
       - name: Draw
         run: |
-          # 1. 解析（config.yamlの設定を適用）
-          keymap -c config.yaml parse -z config/keymap.keymap > keymap_data.yaml
+          # 1. 解析（config.yamlが読み込まれているか、失敗しても続行）
+          keymap -c config.yaml parse -z config/keymap.keymap > keymap_data.yaml || (cat config.yaml && exit 1)
           
-          # 2. 描画（svgファイルを作成）
+          # 2. 描画
           keymap -c config.yaml draw -j config/info.json keymap_data.yaml > keymap_display.svg
 
       - name: Push SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # ここが重要：確実に生成されたsvgをaddの対象にする
           git add keymap_display.svg
-          git commit -m "Update keymap SVG" || exit 0
-          git push
+          # 変更がある場合のみコミット
           git commit -m "Update keymap SVG" || exit 0
           git push
