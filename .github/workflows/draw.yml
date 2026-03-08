@@ -21,11 +21,20 @@ jobs:
 
       - name: Draw
         run: |
-          # 1. 解析段階で config.yaml を読み込ませ、接頭辞の削除や文字の置換を行います
+          # 1. 解析（config.yamlを適用して文字置換）
           keymap -c config.yaml parse -z config/keymap.keymap > keymap_data.yaml
-
-          # 2. 描画段階でも config.yaml を読み込み、レイアウト（info.json）を適用します
+          # 2. 描画（info.jsonを適用してSVG作成）
           keymap -c config.yaml draw -j config/info.json keymap_data.yaml > keymap_display.svg
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # 生成されたsvgを確実にステージングに追加
+          git add keymap_display.svg
+          # 変更がある場合のみコミットし、なければ終了
+          git commit -m "Update keymap image" || exit 0
+          git push
 
       - name: Push SVG
         run: |
