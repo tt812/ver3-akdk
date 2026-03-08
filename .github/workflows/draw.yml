@@ -1,0 +1,33 @@
+name: Draw Keymap
+on:
+  push:
+    paths:
+      - 'config/*.keymap'
+      - 'config.yaml' # これが更新された時も動くようにします
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install keymap-drawer
+        run: pip install keymap-drawer
+
+      - name: Draw
+        run: |
+          # あなたのファイル構成に合わせて実行します
+          # info.json と config.yaml を使って画像を作成
+          keymap parse -c config.yaml --qmk-json info.json -z config/*.keymap > keymap.yaml
+          keymap draw -c config.yaml keymap.yaml > keymap_display.svg
+
+      - name: Push SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add keymap_display.svg
+          git commit -m "Update keymap SVG" || exit 0
+          git push
