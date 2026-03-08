@@ -39,3 +39,10 @@ parse_config:
     "&kp 0x87": "¥"
     "2 INTERNATIONAL_5": "L2/無変換"
     "4 TAB": "L4/Tab"
+
+    # BT名変更
+    "&sel_win_0": "Win/BT0"
+    "&sel_win_1": "Win/BT1"
+    "&sel_win_2": "Win/BT2"
+    "&sel_ipad_3": "iPad/BT3"
+    "&sel_ipad_4": "iPad/BT4"
