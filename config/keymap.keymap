@@ -34,27 +34,27 @@
         win {
             bindings = <
 &kp Q      &kp W  &kp E  &kp R  &kp T        &kp LG(TAB)             &kp DEL              &kp Y     &kp U  &kp I      &kp O       &kp P
-&kp A      &kp S  &kp D  &kp F  &kp G        &mt LEFT_ALT CAPS       &mt RIGHT_ALT JP_AT  &kp H     &kp J  &kp K      &kp L       &mt LEFT_SHIFT ENTER
-&kp Z      &kp X  &kp C  &kp V  &kp B        &mt LEFT_WIN BACKSPACE  &mkp MB2             &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RIGHT_SHIFT JP_UNDERSCORE
-&kp LCTRL                       &lt 1 SPACE  &lt 2 INTERNATIONAL_5   &lt 1 BACKSPACE      &mkp MB1                                &mt RIGHT_CONTROL ESCAPE
+&kp A      &kp S  &kp D  &kp F  &kp G        &mt LALT CAPS           &mt RIGHT_ALT JP_AT  &kp H     &kp J  &kp K      &kp L       &mt LSHIFT ENTER
+&kp Z      &kp X  &kp C  &kp V  &kp B        &mt LEFT_WIN BACKSPACE  &mkp MB2             &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RSHIFT JP_UNDERSCORE
+&kp LCTRL                       &lt 1 SPACE  &lt 2 INT5              &lt 1 BACKSPACE      &mkp MB1                                &mt RCTRL ESC
             >;
         };
 
         num_ar {
             bindings = <
 &kp LS(TAB)  &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp HOME   &kp LG(TAB)             &kp DEL        &kp KP_N7        &kp KP_NUMBER_8  &kp KP_N9        &kp KP_SLASH     &kp MINUS
-&lt 4 TAB    &kp LEFT      &kp DOWN   &kp RIGHT      &kp END    &mt LEFT_ALT CAPS       &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK  &mt LEFT_SHIFT ENTER
-&kp LC(Z)    &kp LC(X)     &kp LC(C)  &kp LC(V)      &kp LC(Y)  &mt LEFT_WIN BACKSLASH  &kp KP_PLUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &mt RIGHT_SHIFT UNDERSCORE
-&kp LCTRL                                            &none      &kp INTERNATIONAL_5     &kp BACKSPACE  &kp KP_NUMBER_0                                                     &mt RIGHT_CONTROL ESCAPE
+&lt 4 TAB    &kp LEFT      &kp DOWN   &kp RIGHT      &kp END    &mt LALT CAPS           &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK  &mt LSHIFT ENTER
+&kp LC(Z)    &kp LC(X)     &kp LC(C)  &kp LC(V)      &kp LC(Y)  &mt LEFT_WIN BACKSLASH  &kp KP_PLUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &mt RSHIFT UNDERSCORE
+&kp LCTRL                                            &none      &kp INT5                &kp BACKSPACE  &kp KP_NUMBER_0                                                     &mt RCTRL ESC
             >;
         };
 
         fn_bk {
             bindings = <
-&kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp JP_PIPE  &kp DEL              &kp JP_QUOTE     &kp JP_DQUOTE     &kp JP_LPAREN  &kp JP_RPAREN     &kp JP_TILDE
-&kp F7           &kp F8    &kp F9      &kp F10      &kp F11        &kp F12      &mt RIGHT_ALT JP_AT  &kp JP_LBRACKET  &kp JP_RBRACKET   &kp SEMICOLON  &kp SINGLE_QUOTE  &mt LEFT_SHIFT ENTER
-&kp F1           &kp F2    &kp F3      &kp F4       &kp F5         &kp F6       &none                &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH      &kp JP_YEN        &mt RIGHT_SHIFT JP_UNDERSCORE
-&kp LCTRL                                           &none          &none        &kp BACKSPACE        &none                                                               &mt RIGHT_CONTROL ESCAPE
+&kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp JP_PIPE  &kp DEL         &kp JP_QUOTE     &kp JP_DQUOTE     &kp JP_LPAREN  &kp JP_RPAREN     &kp JP_TILDE
+&kp F7           &kp F8    &kp F9      &kp F10      &kp F11        &kp F12      &mt RALT JP_AT  &kp JP_LBRACKET  &kp JP_RBRACKET   &kp SEMICOLON  &kp SINGLE_QUOTE  &mt LSHIFT ENTER
+&kp F1           &kp F2    &kp F3      &kp F4       &kp F5         &kp F6       &none           &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH      &kp JP_YEN        &mt RSHIFT JP_UNDERSCORE
+&kp LCTRL                                           &none          &none        &kp BACKSPACE   &none                                                               &mt RCTRL ESC
             >;
         };
 
