@@ -4,6 +4,7 @@ parse_config:
   skip_is_main_pad: true
   zmk_remove_keycode_prefix: ["&kp", "&mt", "&lt"]
   raw_binding_map:
+    # あなたが定義した日本語配列の記号すべて
     "JP_DQUOTE": "\""
     "JP_AMPERSAND": "&"
     "JP_QUOTE": "'"
@@ -27,3 +28,14 @@ parse_config:
     "JP_KANA": "かな"
     "JP_EISU": "英数"
     "JP_HANZEN": "半/全"
+
+    # その他、スキャンコードや長押しキーの調整
+    "0x89": "_"
+    "0x87": "¥"
+    "LEFT_SHIFT ENTER": "Shift/Ent"
+    "RIGHT_SHIFT JP_UNDERSCORE": "Shift/_"
+    "LEFT_WIN BACKSPACE": "Win/BS"
+    "RIGHT_CONTROL ESCAPE": "Ctrl/Esc"
+    "1 SPACE": "L1/Space"
+    "2 INTERNATIONAL_5": "L2/無変換"
+    "4 TAB": "L4/Tab"
