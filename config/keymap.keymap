@@ -124,10 +124,10 @@
 
         fn_bk {
             bindings = <
-&kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp JP_PIPE  &kp DEL              &kp JP_QUOTE     &kp JP_DQUOTE     &kp JP_LPAREN  &kp JP_RPAREN     &kp JP_TILDE
-&kp F7           &kp F8    &kp F9      &kp F10      &kp F11        &kp F12      &mt RIGHT_ALT JP_AT  &kp JP_LBRACKET  &kp JP_RBRACKET   &kp SEMICOLON  &kp SINGLE_QUOTE  &mt LSHIFT ENTER
-&kp F1           &kp F2    &kp F3      &kp F4       &kp F5         &kp F6       &kp LG(S)            &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH      &kp JP_YEN        &mt RSHIFT JP_UNDERSCORE
-&kp LCTRL                                           &none          &none        &kp BACKSPACE        &none                                                               &mt RCTRL ESC
+&kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp JP_AMPERSAND  &kp JP_PIPE  &kp DEL              &kp JP_QUOTE     &kp JP_DQUOTE     &kp JP_LPAREN  &kp JP_RPAREN     &kp JP_TILDE
+&kp F7           &kp F8    &kp F9      &kp F10      &kp F11           &kp F12      &mt RIGHT_ALT JP_AT  &kp JP_LBRACKET  &kp JP_RBRACKET   &kp SEMICOLON  &kp SINGLE_QUOTE  &mt LSHIFT ENTER
+&kp F1           &kp F2    &kp F3      &kp F4       &kp F5            &kp F6       &kp LG(S)            &kp LESS_THAN    &kp GREATER_THAN  &kp SLASH      &kp JP_YEN        &mt RSHIFT JP_UNDERSCORE
+&kp LCTRL                                           &none             &none        &kp BACKSPACE        &none                                                               &mt RCTRL ESC
             >;
         };
 
