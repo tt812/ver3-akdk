@@ -195,26 +195,26 @@
             bindings = <
 &kp LS(TAB)   &kp LC(LS(TAB))  &kp UP     &kp LC(TAB)  &kp HOME   &kp LA(TAB)         &kp DEL        &kp KP_N7        &kp KP_NUMBER_8  &kp KP_N9        &kp KP_SLASH     &kp MINUS
 &lt 4 TAB     &kp LEFT         &kp DOWN   &kp RIGHT    &kp END    &mt LALT CAPS       &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK  &mt LSHIFT ENTER
-&kp LG(Z)     &kp LG(X)        &kp LG(C)  &kp LG(V)    &kp LG(Y)  &mt LWIN LA(LG(D))  &kp KP_PLUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &mt RSHIFT UNDERSCORE
+&kp LG(Z)     &kp LG(X)        &kp LG(C)  &kp LG(V)    &kp LG(Y)  &mt LWIN LA(LG(D))  &kp KP_PLUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &mt RSHIFT UNDER
 &kp LEFT_GUI                                           &none      &kp INT5            &kp BACKSPACE  &kp KP_NUMBER_0                                                     &mt RIGHT_GUI ESC
             >;
         };
 
         layer_9 {
             bindings = <
-&kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp JP_AMPERSAND  &kp JP_PIPE  &kp DEL              &kp SQT          &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp JP_TILDE
-&kp F7           &kp F8    &kp F9      &kp F10      &kp F11           &kp F12      &mt RIGHT_ALT JP_AT  &kp JP_LBRACKET  &kp JP_RBRACKET    &kp SEMICOLON         &kp SINGLE_QUOTE       &mt LSHIFT ENTER
-&kp F1           &kp F2    &kp F3      &kp F4       &kp F5            &kp F6       &kp LG(S)            &kp LESS_THAN    &kp GREATER_THAN   &kp SLASH             &kp JP_YEN             &mt RSHIFT JP_UNDERSCORE
-&kp LCTRL                                           &none             &none        &kp BACKSPACE        &none                                                                            &mt RCTRL ESC
+&kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp PIPE  &kp DEL                &kp SQT        &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp F7           &kp F8    &kp F9      &kp F10      &kp F11        &kp F12   &mt RIGHT_ALT AT_SIGN  &kp LBKT       &kp RBKT           &kp SEMICOLON         &kp SINGLE_QUOTE       &mt LSHIFT ENTER
+&kp F1           &kp F2    &kp F3      &kp F4       &kp F5         &kp F6    &kp LG(S)              &kp LESS_THAN  &kp GREATER_THAN   &kp SLASH             &kp BSLH               &mt RSHIFT UNDER
+&kp LCTRL                                           &none          &none     &kp BACKSPACE          &none                                                                          &mt RCTRL ESC
             >;
         };
 
         layer_10 {
             bindings = <
-&kp LS(TAB)   &kp LG(D)     &kp LG(UP)    &none          &none         &kp LG(TAB)     &kp DEL              &none  &none     &kp UP    &none      &none
-&kp TAB       &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &bt BT_CLR    &mt LALT CAPS   &mt RIGHT_ALT JP_AT  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &mt LSHIFT ENTER
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &mt LWIN LG(T)  &kp LG(S)            &none  &none     &none     &none      &mt RSHIFT JP_UNDERSCORE
-&kp LCTRL                                                &none         &none           &none                &none                                 &mt RCTRL ESC
+&kp LS(TAB)   &kp LG(D)     &kp LG(UP)    &none          &none         &kp LG(TAB)     &kp DEL                &none  &none     &kp UP    &none      &none
+&kp TAB       &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &bt BT_CLR    &mt LALT CAPS   &mt RIGHT_ALT AT_SIGN  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &mt LSHIFT ENTER
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &mt LWIN LG(T)  &kp LG(S)              &none  &none     &none     &none      &mt RSHIFT UNDER
+&kp LCTRL                                                &none         &none           &none                  &none                                 &mt RCTRL ESC
             >;
         };
 
