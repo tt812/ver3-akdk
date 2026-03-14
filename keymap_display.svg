@@ -1600,8 +1600,8 @@ path.combo {
 <g transform="translate(336, 255) rotate(16.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">INT5</text>
-<a href="#fn_bk">
-<text x="0" y="24" class="key hold layer-activator">fn_bk</text>
+<a href="#x_x">
+<text x="0" y="24" class="key hold layer-activator">9</text>
 </a></g>
 <g transform="translate(455, 255) rotate(-16.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1992,8 +1992,8 @@ path.combo {
 <g transform="translate(273, 242) rotate(8.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g transform="translate(336, 255) rotate(16.0)" class="key keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<g transform="translate(336, 255) rotate(16.0)" class="key held keypos-38">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(455, 255) rotate(-16.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
