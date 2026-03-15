@@ -152,10 +152,10 @@
 
         layer_8 {
             bindings = <
-&kp LS(TAB)   &kp LC(LS(TAB))  &kp UP     &kp LC(TAB)  &kp LG(UP)     &kp LG(TAB)         &kp DEL        &kp KP_N7        &kp KP_NUMBER_8  &kp KP_N9        &kp KP_SLASH     &kp MINUS
-&lt 10 TAB    &kp LEFT         &kp DOWN   &kp RIGHT    &kp LG(DOWN)   &mt LALT CAPS       &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK  &mt LSHIFT ENTER
-&kp LG(Z)     &kp LG(X)        &kp LG(C)  &kp LG(V)    &kp LG(LS(Z))  &mt LWIN LA(LG(D))  &kp KP_PLUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &mt RSHIFT UNDER
-&kp LEFT_GUI                                           &none          &kp INT5            &kp BACKSPACE  &kp KP_NUMBER_0                                                     &mt RIGHT_GUI ESC
+&kp LS(TAB)            &kp LC(LS(TAB))  &kp UP     &kp LC(TAB)  &kp LG(UP)     &kp LG(TAB)         &kp DEL        &kp KP_N7        &kp KP_NUMBER_8  &kp KP_N9        &kp KP_SLASH     &kp MINUS
+&lt 10 TAB             &kp LEFT         &kp DOWN   &kp RIGHT    &kp LG(DOWN)   &mt LALT CAPS       &kp KP_MINUS   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK  &mt LSHIFT ENTER
+&kp LG(Z)              &kp LG(X)        &kp LG(C)  &kp LG(V)    &kp LG(LS(Z))  &mt LWIN LA(LG(D))  &kp KP_PLUS    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &mt RSHIFT UNDER
+&mt LEFT_GUI LEFT_GUI                                           &none          &kp INT5            &kp BACKSPACE  &kp KP_NUMBER_0                                                     &mt RIGHT_GUI ESC
             >;
         };
 
