@@ -143,10 +143,10 @@
 
         iPad {
             bindings = <
-&kp Q     &kp W  &kp E  &kp R  &kp T        &kp LG(TAB)         &kp DEL                &kp Y     &kp U  &kp I      &kp O       &kp P
-&kp A     &kp S  &kp D  &kp F  &kp G        &mt LALT CAPS       &mt RIGHT_ALT AT_SIGN  &kp H     &kp J  &kp K      &kp L       &mt LSHIFT ENTER
-&kp Z     &kp X  &kp C  &kp V  &kp B        &mt LWIN LA(LG(D))  &lt 10 LG(SPACE)       &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RSHIFT UNDERSCORE
-&kp LGUI                       &lt 8 SPACE  &lt 9 INT5          &lt 8 BACKSPACE        &mkp MB1                                &mt RIGHT_COMMAND ESC
+&kp Q          &kp W  &kp E  &kp R  &kp T        &kp LG(TAB)         &kp DEL                &kp Y     &kp U  &kp I      &kp O       &kp P
+&kp A          &kp S  &kp D  &kp F  &kp G        &mt LALT CAPS       &mt RIGHT_ALT AT_SIGN  &kp H     &kp J  &kp K      &kp L       &mt LSHIFT ENTER
+&kp Z          &kp X  &kp C  &kp V  &kp B        &mt LWIN LA(LG(D))  &lt 10 LG(SPACE)       &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RSHIFT UNDERSCORE
+&mt LGUI LGUI                       &lt 8 SPACE  &lt 9 INT5          &lt 8 BACKSPACE        &mkp MB1                                &mt RIGHT_COMMAND ESC
             >;
         };
 
@@ -170,10 +170,10 @@
 
         layer_10 {
             bindings = <
-&kp LS(TAB)   &kp LG(D)     &kp LG(UP)    &none          &none         &kp LG(TAB)     &kp DEL                &none  &none     &kp UP    &none      &none
-&kp GLOBE     &kp LC(LEFT)  &kp LG(DOWN)  &kp LC(RIGHT)  &bt BT_CLR    &mt LALT CAPS   &mt RIGHT_ALT AT_SIGN  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &mt LSHIFT ENTER
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &mt LWIN LG(T)  &kp LG(S)              &none  &none     &none     &none      &mt RSHIFT UNDER
-&kp LCTRL                                                &none         &none           &none                  &none                                 &mt RCTRL ESC
+&kp LS(TAB)   &kp LG(D)         &kp LG(UP)    &none              &none         &kp LG(TAB)     &kp DEL                &none  &none     &kp UP    &none      &none
+&kp TAB       &kp LC(LG(LEFT))  &kp LG(DOWN)  &kp LC(LG(RIGHT))  &bt BT_CLR    &mt LALT CAPS   &mt RIGHT_ALT AT_SIGN  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &mt LSHIFT ENTER
+&bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4  &mt LWIN LG(T)  &kp LG(S)              &none  &none     &none     &none      &mt RSHIFT UNDER
+&kp LCTRL                                                        &none         &none           &none                  &none                                 &mt RCTRL ESC
             >;
         };
 
