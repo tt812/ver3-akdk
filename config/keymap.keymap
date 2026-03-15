@@ -80,14 +80,16 @@
             bindings =
                 <&kp GLOBE>,
                 <&macro_press>,
+                <&macro_wait_time 30>,
                 <&kp LEFT_CONTROL>,
                 <&macro_press>,
+                <&macro_wait_time 30>,
                 <&kp LEFT>,
                 <&macro_tap>,
                 <&kp LEFT_CONTROL>,
                 <&macro_release>,
                 <&kp LC(GLOBE)>,
-                <&macro_release>;
+                <&macro_press>;
 
             label = "SPLIT_L";
         }; //
