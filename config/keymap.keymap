@@ -29,34 +29,6 @@
 
 / {
     macros {
-        bracket: bracket {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LBKT &kp RBKT &kp LEFT_ARROW>;
-            label = "BRACKET";
-        };
-
-        thansign: thansign {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LT &kp GT &kp LEFT_ARROW>;
-            label = "THANSIGN";
-        };
-
-        brace: brace {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LBRC &kp RBRC &kp LEFT_ARROW>;
-            label = "BRACE";
-        };
-
-        paren: paren {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LPAR &kp RPAR &kp LEFT_ARROW>;
-            label = "PAREN";
-        };
-
         sel_win_0: sel_win_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -226,7 +198,7 @@
         layer_10 {
             bindings = <
 &kp LS(TAB)   &kp LG(D)     &kp LG(UP)    &none          &none         &kp LG(TAB)     &kp DEL                &none  &none     &kp UP    &none      &none
-&kp TAB       &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(RIGHT)  &bt BT_CLR    &mt LALT CAPS   &mt RIGHT_ALT AT_SIGN  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &mt LSHIFT ENTER
+&kp TAB       &split_L      &kp LG(DOWN)  &kp LG(RIGHT)  &bt BT_CLR    &mt LALT CAPS   &mt RIGHT_ALT AT_SIGN  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &mt LSHIFT ENTER
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4  &mt LWIN LG(T)  &kp LG(S)              &none  &none     &none     &none      &mt RSHIFT UNDER
 &kp LCTRL                                                &none         &none           &none                  &none                                 &mt RCTRL ESC
             >;
