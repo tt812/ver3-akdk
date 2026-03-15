@@ -63,11 +63,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp GLOBE &kp LEFT_CONTROL>,
+                <&kp LC(GLOBE)>,
                 <&macro_press>,
                 <&kp LEFT>,
                 <&macro_tap>,
-                <&kp GLOBE &kp LEFT_CONTROL>,
+                <&kp LC(GLOBE)>,
                 <&macro_release>;
 
             label = "SPLITVIEW_L";
