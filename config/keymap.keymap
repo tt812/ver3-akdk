@@ -190,10 +190,10 @@
 
         layer_10 {
             bindings = <
-&kp LS(TAB)   &kp LG(D)     &kp LG(UP)    &none              &none         &kp LG(TAB)     &kp DEL                &none  &none     &kp UP    &none      &none
-&kp TAB       &splitview_l  &kp LG(DOWN)  &kp LC(LG(RIGHT))  &bt BT_CLR    &mt LALT CAPS   &mt RIGHT_ALT AT_SIGN  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &mt LSHIFT ENTER
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3       &bt BT_SEL 4  &mt LWIN LG(T)  &kp LG(S)              &none  &none     &none     &none      &mt RSHIFT UNDER
-&kp LCTRL                                                    &none         &none           &none                  &none                                 &mt RCTRL ESC
+&kp LS(TAB)   &kp LG(D)     &none         &none         &none         &kp LG(TAB)     &kp DEL                &none  &none     &kp UP    &none      &none
+&kp TAB       &none         &none         &none         &bt BT_CLR    &mt LALT CAPS   &mt RIGHT_ALT AT_SIGN  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &mt LSHIFT ENTER
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &mt LWIN LG(T)  &kp LG(S)              &none  &none     &none     &none      &mt RSHIFT UNDER
+&kp LCTRL                                               &none         &none           &none                  &none                                 &mt RCTRL ESC
             >;
         };
 
