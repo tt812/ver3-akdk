@@ -163,10 +163,10 @@
 
         iPad {
             bindings = <
-&kp Q          &kp W  &kp E  &kp R  &kp T        &kp LG(TAB)         &kp DEL                &kp Y     &kp U  &kp I      &kp O       &kp P
-&kp A          &kp S  &kp D  &kp F  &kp G        &mt LALT CAPS       &mt RIGHT_ALT AT_SIGN  &kp H     &kp J  &kp K      &kp L       &mt LSHIFT ENTER
-&kp Z          &kp X  &kp C  &kp V  &kp B        &mt LWIN LA(LG(D))  &lt 10 LG(SPACE)       &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RSHIFT UNDERSCORE
-&mt LGUI LGUI                       &lt 8 SPACE  &lt 9 INT5          &lt 8 BACKSPACE        &mkp MB1                                &mt RIGHT_COMMAND ESC
+&kp Q             &kp W  &kp E  &kp R  &kp T        &kp LG(TAB)         &kp DEL                &kp Y     &kp U  &kp I      &kp O       &kp P
+&kp A             &kp S  &kp D  &kp F  &kp G        &mt LALT CAPS       &mt RIGHT_ALT AT_SIGN  &kp H     &kp J  &kp K      &kp L       &mt LSHIFT ENTER
+&kp Z             &kp X  &kp C  &kp V  &kp B        &mt LWIN LA(LG(D))  &lt 10 LG(SPACE)       &kp N     &kp M  &kp COMMA  &kp PERIOD  &mt RSHIFT UNDERSCORE
+&kp LEFT_CONTROL                       &lt 8 SPACE  &lt 9 INT5          &lt 8 BACKSPACE        &mkp MB1                                &mt LEFT_GUI ESC
             >;
         };
 
@@ -181,10 +181,10 @@
 
         layer_9 {
             bindings = <
-&kp EXCLAMATION  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp AMPERSAND  &kp PIPE  &kp DEL                &kp SQT        &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&kp F7           &kp F8    &kp F9      &kp F10      &kp F11        &kp F12   &mt RIGHT_ALT AT_SIGN  &kp LBKT       &kp RBKT           &kp SEMICOLON         &kp SINGLE_QUOTE       &mt LSHIFT ENTER
-&kp F1           &kp F2    &kp F3      &kp F4       &kp F5         &kp F6    &kp LG(S)              &kp LESS_THAN  &kp GREATER_THAN   &kp SLASH             &kp BSLH               &mt RSHIFT UNDER
-&kp LCTRL                                           &none          &none     &kp BACKSPACE          &none                                                                          &mt RCTRL ESC
+&kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp PERCENT    &kp AMPERSAND  &kp PIPE  &kp DEL                &kp SQT        &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp UP           &kp LEFT      &kp LC(UP)    &kp RIGHT      &kp F11        &kp F12   &mt RIGHT_ALT AT_SIGN  &kp LBKT       &kp RBKT           &kp SEMICOLON         &kp SINGLE_QUOTE       &mt LSHIFT ENTER
+&kp GLOBE        &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(RIGHT)  &kp F5         &kp F6    &kp LG(S)              &kp LESS_THAN  &kp GREATER_THAN   &kp SLASH             &kp BSLH               &mt RSHIFT UNDER
+&kp LCTRL                                                   &none          &none     &kp BACKSPACE          &none                                                                          &mt RCTRL ESC
             >;
         };
 
