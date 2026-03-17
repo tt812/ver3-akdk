@@ -181,10 +181,10 @@
 
         layer_9 {
             bindings = <
-&kp EXCLAMATION                       &kp HASH      &kp DOLLAR    &kp PERCENT    &kp AMPERSAND  &kp PIPE  &kp DEL                &kp SQT        &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&kp UP                                &kp LEFT      &kp LC(UP)    &kp RIGHT      &kp F11        &kp F12   &mt RIGHT_ALT AT_SIGN  &kp LBKT       &kp RBKT           &kp SEMICOLON         &kp SINGLE_QUOTE       &mt LSHIFT ENTER
-&kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(RIGHT)  &kp F5         &kp F6    &kp LG(S)              &kp LESS_THAN  &kp GREATER_THAN   &kp SLASH             &kp BSLH               &mt RSHIFT UNDER
-&kp LCTRL                                                                        &none          &none     &kp BACKSPACE          &none                                                                          &mt RCTRL ESC
+&kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp PERCENT    &kp AMPERSAND  &kp PIPE  &kp DEL                &kp SQT        &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp UP           &kp LEFT      &kp LC(UP)    &kp RIGHT      &kp F11        &kp F12   &mt RIGHT_ALT AT_SIGN  &kp LBKT       &kp RBKT           &kp SEMICOLON         &kp SINGLE_QUOTE       &mt LSHIFT ENTER
+&kp GLOBE        &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(RIGHT)  &kp F5         &kp F6    &kp LG(S)              &kp LESS_THAN  &kp GREATER_THAN   &kp SLASH             &kp BSLH               &mt RSHIFT UNDER
+&kp LCTRL                                                   &none          &none     &kp BACKSPACE          &none                                                                          &mt RCTRL ESC
             >;
         };
 
